@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lib3"
+version = "0.1.1"
+description = "A Decentralized Book Search Engine"
+authors = ["j2qk3b"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.29.0"
+rich = "^13.7.1"
+
+[tool.poetry.scripts]
+lib3 = "lib3:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
